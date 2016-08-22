@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://www.xmlupdateBb.org/testtable" >
+<!-- 修改该的表名
+http://blog.csdn.net/liuzg1220/article/details/52242640 -->
+            <!-- 操作 -->
+            <!-- 操作的字段名 -->
+            <!-- 字段修改后的类型 -->
+            <!-- 字段默认值 -->
+    <table tableName="Student">
+        <column 
+            operation = "add"
+            columnName="greed"
+            type="String"
+            defValue=""></column>
+    </table>
+    
+</tables>
